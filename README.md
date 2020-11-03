@@ -7,7 +7,7 @@ Objectives:
 
 
 
-### 2 Tasks
+### 1 Tasks
 
 ##### Task 1
 Heron's method is a way of calculating the area of a triangle if all 
@@ -19,6 +19,10 @@ where a, b, c are the sides of the triangle, and s is given by:
 s = (a+b+c)/2
 
 Create a program that calculates the area of a triangle using the
-following entryboxes.
-(x points) 
+entryboxes (in task1.png).  If they have enough information to use the
+typical triangle area formula (A = b*h/2) then use that, otherwise
+calculate the area using Heron's formula.  If that is insufficient,
+tell the user that the area cannot be calculated from the information 
+given.
+(6 points) 
 
