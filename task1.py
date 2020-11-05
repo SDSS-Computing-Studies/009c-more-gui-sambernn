@@ -12,11 +12,11 @@ def calc():
     b = e2.get()
     c = e3.get()
     x = e4.get()
-    if x !="" and b !="":
+    if a =="" and c=="" and b !="" and x !="":
         b = float(b)
         x = float(x)
         area = b * x / 2
-    if a !="" and b !="" and c !="":
+    elif x=="" and a !="" and b !="" and c !="":
         a = float(a)
         b = float(b)
         c = float(c)
